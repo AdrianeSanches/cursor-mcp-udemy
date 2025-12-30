@@ -48,6 +48,16 @@ Modo de planejamento que cria um plano detalhado antes de executar qualquer alte
 
 O Plan gera um passo a passo detalhado das alterações propostas, permitindo que você revise, ajuste e aprove antes que qualquer código seja modificado.
 
+### 🔍 Debug (Depurar)
+Modo de depuração que ajuda a identificar e resolver problemas no código. O Debug é essencial para:
+- Analisar erros e exceções no código
+- Entender o fluxo de execução e valores de variáveis
+- Identificar bugs e problemas de lógica
+- Otimizar o desempenho da aplicação
+- Resolver problemas complexos de forma estruturada
+
+O Debug utiliza o contexto completo do projeto para fornecer diagnósticos precisos, sugestões de correção e explicações detalhadas sobre problemas encontrados no código.
+
 ### ⌨️ Tab (Autocompletar)
 Utilize a tecla **Tab** para uma infinidade de recursos:
 - Completar código automaticamente
