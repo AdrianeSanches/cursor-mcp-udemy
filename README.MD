@@ -228,6 +228,45 @@ try {
 }
 ```
 
+### 📄 Arquivo .cursorignore
+O arquivo `.cursorignore` é uma funcionalidade específica do Cursor AI que permite excluir arquivos e pastas do contexto de análise da IA. Este arquivo funciona de forma similar ao `.gitignore`, mas especificamente para controlar quais arquivos o Cursor deve considerar durante suas análises e sugestões.
+
+**Para que serve:**
+- **Otimização de Performance**: Evita que arquivos grandes, temporários ou irrelevantes sejam processados pela IA
+- **Privacidade**: Exclui arquivos sensíveis como chaves de API, dados pessoais ou configurações locais
+- **Foco Contextual**: Mantém o foco da IA apenas nos arquivos relevantes do projeto
+- **Redução de Ruído**: Evita sugestões baseadas em arquivos de cache, logs ou dependências desnecessárias
+
+**Como funciona:**
+- Sintaxe similar ao `.gitignore`
+- Suporta padrões glob (ex: `*.log`, `node_modules/**`)
+- Arquivo vazio significa que nenhum arquivo está sendo ignorado (padrão)
+- É automaticamente detectado pelo Cursor quando presente na raiz do projeto
+
+**Exemplos de uso:**
+```gitignore
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Diretórios de dependências
+node_modules/
+vendor/
+
+# Arquivos de configuração local
+.env
+.env.local
+
+# Logs e cache
+logs/
+.cache/
+dist/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+```
+
 ---
 
 ## 🤖 Criação e Inserção de Agentes
@@ -390,6 +429,47 @@ case 'call_api':
 - **Testes**: Teste extensivamente antes de publicar
 - **Performance**: Otimize para respostas rápidas
 - **Compatibilidade**: Mantenha compatibilidade com versões do MCP
+
+---
+
+## 🌐 Cursor Directory
+
+O **[Cursor Directory](https://cursor.directory/)** é o hub oficial da comunidade Cursor AI, uma plataforma centralizada onde desenvolvedores podem explorar, criar e compartilhar recursos para maximizar o potencial do Cursor.
+
+### 🎯 Principais Funcionalidades
+
+#### 📋 Rules (Regras)
+A página de **Rules** oferece uma biblioteca completa de regras pré-configuradas criadas pela comunidade e pela equipe do Cursor. Você pode:
+
+- **Buscar regras existentes**: Encontre regras prontas para diferentes tecnologias e frameworks
+- **Criar regras personalizadas**: Desenvolva suas próprias regras e compartilhe com a comunidade
+- **Organização por categoria**: Regras organizadas por stacks tecnológicos (TypeScript, Next.js, React Native, Chrome Extensions, APIs, etc.)
+- **Regras oficiais**: Acesse regras desenvolvidas pela equipe do Cursor com melhores práticas
+
+**Como usar:**
+1. Acesse [cursor.directory/rules](https://cursor.directory/rules)
+2. Navegue pelas categorias ou use a busca
+3. Copie as regras que interessam para seus projetos
+4. Adapte conforme necessário para seu workflow
+
+#### 🤖 MCP Servers
+Explore e descubra servidores MCP (Model Context Protocol) disponíveis na comunidade:
+- Servidores para integração com APIs externas
+- Ferramentas para automação de tarefas
+- Extensões para diferentes serviços e plataformas
+
+#### 💼 Job Board
+Descubra oportunidades de emprego relacionadas ao Cursor e tecnologias associadas.
+
+#### 📰 Community Board
+Mantenha-se atualizado com as últimas notícias, discussões e anúncios da comunidade Cursor.
+
+### 💡 Por que usar o Cursor Directory?
+
+- **Acelere seu setup**: Use regras comprovadas ao invés de criar tudo do zero
+- **Aprenda com a comunidade**: Veja como outros desenvolvedores configuram seus ambientes
+- **Mantenha-se atualizado**: Acesse as melhores práticas mais recentes
+- **Contribua**: Compartilhe suas próprias regras e ajude outros desenvolvedores
 
 ---
 

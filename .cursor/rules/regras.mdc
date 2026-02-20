@@ -1,0 +1,6 @@
+---
+alwaysApply: true
+description: Estrutura de organização dos componentes por página
+---
+
+Sempre que for solicitada uma alteração em algum arquivo .md existente, é necessário que você analise e entenda a estrutura do arquivo e faça as alterações respeitando seu formato, linguagem e estrutura
