@@ -1,4 +1,5 @@
 import './Home.css'
+import LatestNews from '../components/Home/LatestNews'
 
 function Home() {
   return (
@@ -20,6 +21,8 @@ function Home() {
           <p>Interface moderna e responsiva</p>
         </div>
       </div>
+
+      <LatestNews />
     </div>
   )
 }

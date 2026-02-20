@@ -1,0 +1,26 @@
+---
+alwaysApply: true
+description: Estrutura de organização dos componentes por página
+---
+
+# Estrutura do Projeto - Componentes
+
+## Organização de Componentes
+
+Os componentes devem ser organizados seguindo a estrutura:
+```
+src/components/NomeDaPagina/NomeDoComponente.jsx
+src/components/NomeDaPagina/NomeDoComponente.css
+```
+
+### Exemplos:
+- Componentes da página Home: `src/components/Home/Componente.jsx`
+- Componentes da página Sobre: `src/components/Sobre/Componente.jsx`
+- Componentes da página Contato: `src/components/Contato/Componente.jsx`
+
+### Componentes Globais:
+Componentes compartilhados entre múltiplas páginas ficam diretamente em `src/components/`:
+- `src/components/Navbar.jsx` - Navegação global
+- `src/components/Footer.jsx` - Rodapé global (se existir)
+
+Esta organização mantém os componentes relacionados próximos e facilita a manutenção.
